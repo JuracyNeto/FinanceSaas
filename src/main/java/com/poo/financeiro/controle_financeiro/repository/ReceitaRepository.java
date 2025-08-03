@@ -4,10 +4,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
 
-import com.poo.financeiro.controle_financeiro.model.Despesa;
+import com.poo.financeiro.controle_financeiro.model.Receita;
 
-
-// Com JpaSpecificationExecutor eu posso buscar com filtros dinamicos 
 @Repository
-public interface DespesaRepository extends JpaRepository<Despesa, Long>, JpaSpecificationExecutor<Despesa> {
+public interface ReceitaRepository extends JpaRepository<Receita, Long>, JpaSpecificationExecutor<Receita>  {
 }
